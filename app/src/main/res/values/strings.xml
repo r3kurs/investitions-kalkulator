@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Investitions-Kalkulator</string>
+    <string name="app_name_subtitle">KI-generiert</string>
+
+    <!-- Section headers -->
+    <string name="header_vorgaben">Allgemeine Vorgaben</string>
+    <string name="header_eingabe">ORDER ANGABEN</string>
+    <string name="header_ergebnis">Ergebnis</string>
+
+    <!-- Persistent settings labels -->
+    <string name="label_vermoegen">Investierbares Vermögen (€)</string>
+    <string name="hint_vermoegen">z. B. 10.000</string>
+    <string name="label_risiko">Risiko (%)</string>
+    <string name="hint_risiko">z. B. 2</string>
+    <string name="label_gebuehren">Gebühren (€)</string>
+    <string name="hint_gebuehren">z. B. 9,90</string>
+    <string name="label_risikokapital">Risikokapital:</string>
+
+    <!-- Per-calculation labels -->
+    <string name="label_kaufkurs">Kaufkurs (€)</string>
+    <string name="hint_kaufkurs">z. B. 45,50</string>
+    <string name="label_stoploss">StoppLoss-Kurs (€)</string>
+    <string name="hint_stoploss">z. B. 42,00</string>
+
+    <!-- Result labels -->
+    <string name="label_stuecke">Wertpapier-Stücke</string>
+    <string name="label_kaufwert">Kaufwert</string>
+    <string name="label_max_verlust">Maximaler Verlust</string>
+
+    <!-- Buttons -->
+    <string name="btn_speichern">Vorgaben speichern</string>
+    <string name="btn_berechnen">Berechnen</string>
+    <string name="btn_hilfe">?</string>
+
+    <!-- Messages -->
+    <string name="msg_gespeichert">Vorgaben gespeichert</string>
+    <string name="err_ungueltige_eingabe">Bitte alle Felder korrekt ausfüllen.</string>
+    <string name="err_kaufkurs_kleiner">Der Kaufkurs muss größer als der StoppLoss-Kurs sein.</string>
+    <string name="err_risiko_zu_gering">Das verfügbare Risikokapital nach Abzug der Gebühren ist ≤ 0. Bitte Vorgaben prüfen.</string>
+    <string name="err_positive_werte">Alle Werte müssen positiv sein.</string>
+    <string name="err_risiko_ungueltig">Risiko: 0,5–9,5 in Schritten von 0,5 oder 10–99 (ganzzahlig).</string>
+    <string name="err_gebuehren_zu_gross">Gebühren dürfen maximal 99,99 € betragen.</string>
+    <string name="err_gebuehren_zu_hoch">Die Gebühren müssen kleiner als das Risikokapital sein (Vermögen × Risiko% / 100).</string>
+    <string name="warn_kaufwert_ueber_vermoegen">⚠ Der Kaufwert ist größer als das investierbare Vermögen.</string>
+    <string name="warn_stuecke_null">⚠ Prüfe Risiko und Order Angaben!</string>
+    <string name="result_placeholder">–</string>
+
+    <!-- Hilfe-Dialog -->
+    <string name="hilfe_titel">Hilfe</string>
+    <string name="hilfe_text" formatted="false">Der Investitions-Kalkulator berechnet, wie viele Wertpapier-Stücke du bei einem Trade kaufen kannst, damit dein maximaler Verlust zum akzeptierten Risiko passt.\n\nAllgemeine Vorgaben\n• Investierbares Vermögen: Dein gesamtes verfügbares Kapital für Wertpapierhandel.\n• Risiko (%): Der Anteil deines Vermögens, den du pro Kauf maximal riskieren möchtest. Übliche Werte liegen zwischen 1 bis 3 %.\n• Risikokapital: Wird automatisch aus Vermögen und Risiko berechnet.\n• Gebühren: Alle Handelsgebühren (Kauf und Verkauf). Wird vor Berechnung vom Risikokapital abgezogen.\n\nOrder Angaben\n• Kaufkurs: Geplanter Kaufpreis pro Stück.\n• StoppLoss-Kurs: Kurs, bei dem du die Position zur Verlustbegrenzung verkaufen würdest.\n\nErgebnis\n• Wertpapier-Stücke: Anzahl der Stücke, abgerundet auf eine ganze Zahl.\n• Kaufwert: Kaufkurs × Wertpapier-Stücke.\n• Maximaler Verlust: Differenz zwischen Kaufwert und Verkaufswert bei StoppLoss.\n\nTippe auf Vorgaben speichern, damit Vermögen, Risiko und Gebühren beim nächsten Start erhalten bleiben.\n\nDie App benötigt keine zusätzlichen Berechtigungen und funktioniert offline.\n\nDiese App ist KI-generiert.\nCreator: r3kurs</string>
+</resources>

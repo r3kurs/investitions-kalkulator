@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.InvestitionsKalkulator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Türkis-Blau Palette -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/blue_darker</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/blue_darker</item>
+
+        <!-- TextInputLayout: kontrastreiche inaktive Felder -->
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+    </style>
+
+    <!--
+        Benutzerdefinierter TextInputLayout-Stil:
+        - Outline im Ruhezustand kräftiger (nicht grau, sondern blue_dark)
+        - Hint-/Label-Farbe im Ruhezustand dunkler
+        Ergebnis: Felder auch inaktiv sehr lesbar
+    -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <!-- Outline Farbe: inaktiv = blue_dark, aktiv/fokussiert = blue_primary -->
+        <item name="boxStrokeColor">@color/field_stroke_states</item>
+        <!-- Hint Farbe (float label + placeholder) -->
+        <item name="hintTextColor">@color/field_hint_states</item>
+        <!-- Outline Breite etwas dicker für bessere Sichtbarkeit -->
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <!-- Abgerundete Ecken -->
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+    </style>
+
+</resources>

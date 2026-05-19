@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="field_spacing">12dp</dimen>
+    <dimen name="section_header_size">13sp</dimen>
+    <dimen name="result_value_size">36sp</dimen>
+    <dimen name="result_label_size">13sp</dimen>
+</resources>

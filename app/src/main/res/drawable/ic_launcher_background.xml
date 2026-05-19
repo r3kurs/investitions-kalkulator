@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon background: deep ocean blue -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#003F63"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- Subtle diagonal grid lines -->
+    <path
+        android:strokeColor="#00527F"
+        android:strokeWidth="0.6"
+        android:pathData="M0,108 L108,0" />
+    <path
+        android:strokeColor="#00527F"
+        android:strokeWidth="0.6"
+        android:pathData="M0,72 L72,0" />
+    <path
+        android:strokeColor="#00527F"
+        android:strokeWidth="0.6"
+        android:pathData="M36,108 L108,36" />
+
+</vector>

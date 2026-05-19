@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon foreground: 3 Kerzen + Aufwärtspfeil, Türkis-Blau Palette.
+    Safe zone: 72x72dp centred in 108x108dp (18dp padding each side).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- === LEFT CANDLE (bearish / warm coral) === -->
+    <path android:strokeColor="#F4A261" android:strokeWidth="2.5"
+        android:strokeLineCap="round" android:pathData="M29,55 L29,62" />
+    <path android:fillColor="#E76F51"
+        android:pathData="M24,62 L34,62 L34,76 L24,76 Z" />
+    <path android:strokeColor="#F4A261" android:strokeWidth="2.5"
+        android:strokeLineCap="round" android:pathData="M29,76 L29,82" />
+
+    <!-- === MIDDLE CANDLE (bullish / mid cyan) === -->
+    <path android:strokeColor="#48CAE4" android:strokeWidth="2.5"
+        android:strokeLineCap="round" android:pathData="M49,40 L49,48" />
+    <path android:fillColor="#0096C7"
+        android:pathData="M44,48 L54,48 L54,64 L44,64 Z" />
+    <path android:strokeColor="#48CAE4" android:strokeWidth="2.5"
+        android:strokeLineCap="round" android:pathData="M49,64 L49,70" />
+
+    <!-- === RIGHT CANDLE (bullish / bright cyan) === -->
+    <path android:strokeColor="#ADE8F4" android:strokeWidth="2.5"
+        android:strokeLineCap="round" android:pathData="M69,26 L69,34" />
+    <path android:fillColor="#00B4D8"
+        android:pathData="M64,34 L74,34 L74,52 L64,52 Z" />
+    <path android:strokeColor="#ADE8F4" android:strokeWidth="2.5"
+        android:strokeLineCap="round" android:pathData="M69,52 L69,58" />
+
+    <!-- === TREND ARROW (gold/yellow) === -->
+    <path android:strokeColor="#FFD166" android:strokeWidth="3"
+        android:strokeLineCap="round" android:pathData="M22,82 L78,28" />
+    <path android:fillColor="#FFD166"
+        android:pathData="M78,28 L66,30 L76,40 Z" />
+
+    <!-- === BASELINE === -->
+    <path android:strokeColor="#0077B6" android:strokeWidth="1.5"
+        android:strokeLineCap="round" android:pathData="M20,86 L88,86" />
+
+</vector>

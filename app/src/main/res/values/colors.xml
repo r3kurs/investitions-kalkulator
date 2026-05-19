@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Türkis-Blau Palette
+    Primary:  #0077B6  (kräftiges Ozeanblau)
+    Dark:     #005F8E  (tiefes Dunkelblau für AppBar / Ergebniskarte)
+    Light:    #90E0EF  (helles Türkis als Akzent / sekundär)
+    Surface:  #FFFFFF
+    BG:       #EFF6FB  (ganz leicht bläulicher Hintergrund)
+-->
+<resources>
+    <!-- Primary brand blues -->
+    <color name="blue_primary">#0077B6</color>
+    <color name="blue_dark">#005F8E</color>
+    <color name="blue_darker">#003F63</color>
+    <color name="blue_light">#90E0EF</color>
+    <color name="blue_lighter">#CAF0F8</color>
+
+    <!-- Surfaces -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#EFF6FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#0D1B2A</color>
+
+    <!-- Semantic -->
+    <color name="error">#B00020</color>
+    <color name="result_positive">#0077B6</color>
+
+    <!-- UI details -->
+    <color name="card_border">#BCD8EA</color>
+    <color name="label_color">#2D6A8F</color>
+    <color name="hint_text">#4A8BAD</color>
+    <color name="field_outline_idle">#4A8BAD</color>
+</resources>
