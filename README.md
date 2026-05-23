@@ -43,8 +43,8 @@ Die App dient als Rechenhilfe. Sie stellt keine Finanzberatung dar.
 Die folgenden Ansichten zeigen die Hauptansicht und den Hilfebildschirm der App.
 
 <p align="center">
-  <img src="./investitionskalkulator_mainscreen.jpg" width="300" alt="Hauptansicht der App" />
-  <img src="./investitionskalkulator_helpscreen.jpg" width="300" alt="Hilfebildschirm der App" />
+  <img src="./investitionskalkulator%20_mainscreen.jpg" width="300" alt="Hauptansicht der App" />
+  <img src="./investitionskalkulator%20_helpscreen.jpg" width="300" alt="Hilfebildschirm der App" />
 </p>
 
 ## Installation
