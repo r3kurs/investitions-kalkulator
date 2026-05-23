@@ -4,6 +4,8 @@ Eine einfache Android-App zur Berechnung der passenden Wertpapier-Stücke für e
 
 Der **Investitions-Kalkulator** berechnet, wie viele Wertpapier-Stücke du bei einem Trade kaufen kannst, damit dein maximaler Verlust zum akzeptierten Risiko passt.
 
+Die App dient als Rechenhilfe. Sie stellt keine Finanzberatung dar.
+
 ## Funktionen
 
 - Berechnung der **Wertpapier-Stücke**
@@ -45,6 +47,33 @@ Der **Investitions-Kalkulator** berechnet, wie viele Wertpapier-Stücke du bei e
 
 Hinweis: Da die App nicht aus dem Google Play Store installiert wird, kann Android eine Sicherheitsabfrage anzeigen.
 
+<details>
+<summary>Apps aus unbekannten Quellen installieren (Android)</summary>
+
+> Achtung: APKs nur aus vertrauenswürdigen Quellen installieren, da Apps von fremden Seiten Schadsoftware enthalten oder Daten stehlen können.
+
+**Schritt-für-Schritt (Text)**  
+- Heise: Externe Apps/APK-Dateien installieren  
+  https://www.heise.de/tipps-tricks/Externe-Apps-APK-Dateien-bei-Android-installieren-so-klappt-s-3714330.html  
+
+- CHIP: Android-Apps manuell installieren  
+  https://www.chip.de/ratgeber/handy/android-apps-manuell-installieren-so-geht-s_efc29566-8a1a-4b09-a6f4-0e19c07815e0.html  
+
+- Tutonaut: Apps aus unbekannten Quellen installieren  
+  https://www.tutonaut.de/anleitung-android-apps-unbekannten-quellen-installieren/  
+
+**Videoanleitungen**  
+- Unbekannte Apps installieren (Android 13)  
+  https://www.youtube.com/watch?v=z6tfYtFhx8s  
+
+- Unbekannte Apps installieren (Android 14)  
+  https://www.youtube.com/watch?v=JXaT-4-kE3k  
+
+- Unbekannte Apps installieren (Android 15)  
+  https://www.youtube.com/watch?v=zqobQ9bouY8  
+
+</details>
+
 ## Veröffentlichung
 
 Die aktuelle Version kann über den Bereich **Releases** dieses GitHub-Projekts heruntergeladen werden.
@@ -65,4 +94,5 @@ Diese App ist KI-generiert.
 
 Creator: **r3kurs**
 
-Die App dient als Rechenhilfe. Sie stellt keine Finanzberatung dar.
+Diese App wurde mit Hilfe der KI Perplexity generiert, von mir getestet und der Code nur oberflächlich geprüft. Ich bin kein App-Experte und freue mich, wenn Fachleute den Code zusätzlich überprüfen.
+
