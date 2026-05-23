@@ -38,6 +38,15 @@ Die App dient als Rechenhilfe. Sie stellt keine Finanzberatung dar.
 - **Kaufwert**: Kaufkurs × Wertpapier-Stücke.
 - **Maximaler Verlust**: Differenz zwischen Kaufwert und Verkaufswert bei StoppLoss.
 
+## Screenshots
+
+Die folgenden Ansichten zeigen die Hauptansicht und den Hilfebildschirm der App.
+
+<p align="center">
+  <img src="images/investitionskalkulator_mainscreen.jpg" width="300" alt="Hauptansicht der App" />
+  <img src="images/investitionskalkulator_helpscreen.jpg" width="300" alt="Hilfebildschirm der App" />
+</p>
+
 ## Installation
 
 1. Lade die aktuelle APK-Datei aus dem Bereich **Releases** herunter.
