@@ -1,8 +1,6 @@
 # Investitions-Kalkulator
 
-Eine einfache Android-App zur Berechnung der passenden Wertpapier-Stücke für einen Trade.
-
-Der **Investitions-Kalkulator** berechnet, wie viele Wertpapier-Stücke du bei einem Trade kaufen kannst, damit dein maximaler Verlust zum akzeptierten Risiko passt.
+Der **Investitions-Kalkulator** ist eine kompakte Android-App für Trader. Sie berechnet, wie viele Wertpapier-Stücke du bei einem Trade kaufen kannst, damit dein maximaler Verlust zum eigenen Risiko passt.
 
 Die App dient als Rechenhilfe. Sie stellt keine Finanzberatung dar.
 
@@ -104,4 +102,3 @@ Diese App ist KI-generiert.
 Creator: **r3kurs**
 
 Diese App wurde mit Hilfe der KI Perplexity generiert, von mir getestet und der Code nur oberflächlich geprüft. Ich bin kein App-Experte und freue mich, wenn Fachleute den Code zusätzlich überprüfen.
-
