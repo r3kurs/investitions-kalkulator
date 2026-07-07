@@ -20,7 +20,7 @@
     <!-- Per-calculation labels -->
     <string name="label_kaufkurs">Kaufkurs (€)</string>
     <string name="hint_kaufkurs">z. B. 45,50</string>
-    <string name="label_stoploss">StoppLoss-Kurs (€)</string>
+    <string name="label_stoploss">Stoppkurs (€)</string>
     <string name="hint_stoploss">z. B. 42,00</string>
 
     <!-- Result labels -->
