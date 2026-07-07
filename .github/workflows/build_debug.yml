@@ -1,9 +1,14 @@
-name: Build APK
+name: Build Debug APK
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
-  workflow_dispatch:
+    paths:
+      - 'app/**'
+      - 'gradle/**'
+      - '*.gradle'
+      - '*.gradle.kts'
 
 jobs:
   build:
