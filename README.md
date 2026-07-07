@@ -11,9 +11,8 @@ Die App ist eine Rechenhilfe für Risiko- bzw. Positionsgrößen-Berechnungen un
 - Berechnung des **maximalen Verlusts**
 - Speicherung allgemeiner Vorgaben
 - Anzeige des berechneten Risikokapitals
-- Warnhinweis, wenn der Kaufwert größer als das investierbare Vermögen ist
-- Hinweis, wenn die berechneten Wertpapier-Stücke `0` ergeben
-- Deutsche Zahlenformate mit Komma und Tausenderpunkt
+- Plausibilitätsprüfungen und entsprechende Hinweise
+- Eingabefehler werden möglichst sofort erkannt
 - Hilfe-Dialog direkt in der App
 - Funktioniert offline
 - Benötigt keine zusätzlichen Berechtigungen
@@ -80,6 +79,10 @@ Hinweis: Da die App nicht aus dem Google Play Store installiert wird, kann Andro
   https://www.youtube.com/watch?v=zqobQ9bouY8  
 
 </details>
+
+## Lizenz
+
+Dieses Projekt ist unter der GNU General Public License Version 3 (GPLv3) lizenziert. Siehe die Datei LICENSE für Details.
 
 ## Veröffentlichung
 
