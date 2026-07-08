@@ -300,7 +300,11 @@ class MainActivity : AppCompatActivity() {
         val scrollView = ScrollView(this)
         val tv = TextView(this).apply {
             val version = BuildConfig.VERSION_NAME
-            text = getString(R.string.hilfe_text) + "\n\nVersion $version"
+            text = getString(
+                R.string.hilfe_text_mit_version,
+                getString(R.string.hilfe_text_neu),
+                version
+            )
             textSize = 14f
             setPadding(56, 40, 56, 32)
             setTextColor(resources.getColor(R.color.on_surface, theme))
@@ -314,7 +318,7 @@ class MainActivity : AppCompatActivity() {
         )
             .setTitle(getString(R.string.hilfe_titel))
             .setView(scrollView)
-            .setPositiveButton("✕ Schließen") { dialog, _ -> dialog.dismiss() }
+            .setPositiveButton(getString(R.string.hilfe_schliessen)) { dialog, _ -> dialog.dismiss() }
             .show()
     }
 
