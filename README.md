@@ -44,9 +44,19 @@ Die folgenden Ansichten zeigen die Hauptansicht und den Hilfebildschirm der App.
   <img src="./investitionskalkulator%20_helpscreen.jpg" width="300" alt="Hilfebildschirm der App" />
 </p>
 
+## Veröffentlichung und Versionen
+
+Die aktuelle Version kann man über den
+[**Latest Release**](https://github.com/r3kurs/investitions-kalkulator/releases/latest)
+dieses GitHub-Projekts herunter laden.
+
+Dort unter Assets die Datei "investitions-kalkulator-vX.Y.Z.apk" runter laden.
+
+Alle veröffentlichten Versionen kann man über den Bereich [**Releases**](https://github.com/r3kurs/investitions-kalkulator/releases) dieses GitHub-Projekts einsehen.
+
 ## Installation
 
-1. Lade die aktuelle APK-Datei aus dem Bereich **Releases** herunter.
+1. Lade die aktuelle APK-Datei aus dem Assets-Abschnitt des [**Latest Release**](https://github.com/r3kurs/investitions-kalkulator/releases/latest) herunter.
 2. Öffne die APK-Datei auf deinem Android-Gerät.
 3. Erlaube bei Bedarf die Installation aus unbekannten Quellen.
 4. Installiere die App.
@@ -83,10 +93,6 @@ Hinweis: Da die App nicht aus dem Google Play Store installiert wird, kann Andro
 ## Lizenz
 
 Dieses Projekt ist unter der GNU General Public License Version 3 (GPLv3) lizenziert. Siehe die Datei LICENSE für Details.
-
-## Veröffentlichung und Version
-
-Die aktuelle Version kann über den Bereich **Releases** investitions-kalkulator vX.Y.Z (Latest) dieses GitHub-Projekts heruntergeladen werden.
 
 ## Hinweise
 
