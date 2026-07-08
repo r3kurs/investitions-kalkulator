@@ -84,19 +84,9 @@ Hinweis: Da die App nicht aus dem Google Play Store installiert wird, kann Andro
 
 Dieses Projekt ist unter der GNU General Public License Version 3 (GPLv3) lizenziert. Siehe die Datei LICENSE für Details.
 
-## Veröffentlichung
+## Veröffentlichung und Version
 
-Die aktuelle Version kann über den Bereich **Releases** dieses GitHub-Projekts heruntergeladen werden.
-
-Empfohlener Dateiname:
-
-```text
-investitions-kalkulator-v1.1.2.apk
-```
-
-## Version
-
-Aktuelle Version: **1.1.2**
+Die aktuelle Version kann über den Bereich **Releases** investitions-kalkulator vX.Y.Z (Latest) dieses GitHub-Projekts heruntergeladen werden.
 
 ## Hinweise
 
