@@ -2,6 +2,25 @@
 
 Der **Investitions-Kalkulator** ist eine kompakte Android-App für Trader. Sie berechnet, wie viele Wertpapier-Stücke du bei einem Trade kaufen kannst, damit dein maximaler Verlust zu deinem definierten Risiko passt.
 
+<blockquote>
+<details>
+<summary>Details zur Berechnung von Risiko und Positionsgröße (ausklappbar)</summary>
+
+Mit anderen Worten hilft die App dabei, die passende **Positionsgröße** für einen geplanten Trade zu bestimmen.
+
+Voraussetzung dafür ist immer ein vorher definierter **Trading-Plan**! Dazu gehören insbesondere ein geplanter Einstiegskurs, ein StoppLoss-Kurs zur Verlustbegrenzung und idealerweise auch ein Verkaufskurs für die Gewinnmitnahme.
+
+Gerade für unerfahrene Trader ist die Bestimmung der Positionsgröße oft schwierig. Aber auch erfahrene Trader profitieren davon, weil sich die Stückzahl auf Basis des vorhandenen Handelskapitals und des selbst festgelegten Risikos schnell und nachvollziehbar berechnen lässt.
+
+Das **Risikokapital** ergibt sich aus dem investierbaren Vermögen multipliziert mit dem gewählten Risiko-Prozentsatz. Beispiel: Bei 10.000 € Vermögen und 2 % Risiko beträgt das Risikokapital 200 €. Werden zusätzlich 10 € Gebühren berücksichtigt, bleiben als Einsatz für den eigentlichen Trade noch 190 € übrig.
+
+Die Anzahl der **Wertpapier-Stücke** ergibt sich anschließend aus dem noch verfügbaren Risikokapital geteilt durch das Risiko pro Stück. Das Risiko pro Stück ist die Differenz zwischen Kaufkurs und StoppLoss-Kurs. Beispiel: Liegt der Kaufkurs bei 50 € und der StoppLoss bei 47 €, dann beträgt das Risiko pro Stück 3 €. Bei 190 € verfügbarem Risikokapital können somit 63 Stück gekauft werden; in der Praxis wird auf ganze Stücke abgerundet.
+
+Wichtig ist dabei: Der berechnete maximale Verlust ist ein Planwert unter normalen Annahmen. Der tatsächliche Verlust kann davon abweichen, etwa durch Gebühren, Slippage, die Art der verwendeten Stopp-Order oder durch Kurslücken. Bei einer Kurslücke kann es passieren, dass ein StoppLimit gar nicht ausgeführt wird oder ein StoppLoss erst zu einem deutlich ungünstigeren Kurs ausgeführt wird.
+
+</details>
+</blockquote>
+
 Die App ist eine Rechenhilfe für Risiko- bzw. Positionsgrößen-Berechnungen und stellt keine Finanzberatung dar.
 
 ## Funktionen
