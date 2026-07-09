@@ -4,7 +4,7 @@ Der **Investitions-Kalkulator** ist eine kompakte Android-App für Trader. Sie b
 
 <blockquote>
 <details>
-<summary>Details zur Berechnung von Risiko und Positionsgröße (ausklappbar)</summary>
+<summary>Details (ausklappbar) zur Berechnung von Risiko und Positionsgröße </summary>
 
 Mit anderen Worten hilft die App dabei, die passende **Positionsgröße** für einen geplanten Trade zu bestimmen.
 
