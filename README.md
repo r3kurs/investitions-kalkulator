@@ -16,7 +16,7 @@ Das **Risikokapital** ergibt sich aus dem investierbaren Vermögen multipliziert
 
 Die Anzahl der **Wertpapier-Stücke** ergibt sich anschließend aus dem noch verfügbaren Risikokapital geteilt durch das Risiko pro Stück. Das Risiko pro Stück ist die Differenz zwischen Kaufkurs und StoppLoss-Kurs. Beispiel: Liegt der Kaufkurs bei 50 € und der StoppLoss bei 47 €, dann beträgt das Risiko pro Stück 3 €. Bei 190 € verfügbarem Risikokapital können somit 63 Stück gekauft werden; in der Praxis wird auf ganze Stücke abgerundet.
 
-Wichtig ist dabei: Der berechnete maximale Verlust ist ein Planwert unter normalen Annahmen. Der tatsächliche Verlust kann davon abweichen, etwa durch Gebühren, Slippage, die Art der verwendeten Stopp-Order oder durch Kurslücken. Bei einer Kurslücke kann es passieren, dass ein StoppLimit gar nicht ausgeführt wird oder ein StoppLoss erst zu einem deutlich ungünstigeren Kurs ausgeführt wird.
+Wichtig ist dabei: Der berechnete maximale Verlust ist ein Planwert unter normalen Annahmen. Der tatsächliche Verlust kann davon abweichen, etwa durch Gebühren, Slippage, die Art der verwendeten Stopp-Order oder durch Kurslücken. Bei einer Kurslücke kann es passieren, dass ein StoppLimit gar nicht ausgeführt wird. Bei einem StoppLoss kann der Verkauf erst zu einem deutlich ungünstigeren Kurs ausgeführt werden.
 
 </details>
 </blockquote>
