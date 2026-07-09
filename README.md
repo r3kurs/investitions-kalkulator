@@ -100,4 +100,4 @@ Diese App ist KI-generiert.
 
 Creator: **r3kurs**
 
-Diese App wurde mit Hilfe der KI Perplexity generiert, von mir getestet und der Code nur oberflächlich geprüft. Ich bin kein App-Experte und freue mich, wenn Fachleute den Code zusätzlich überprüfen.
+Diese App wurde mit Hilfe der KI Perplexity generiert, von mir ausführlich getestet, aber der Code nur oberflächlich geprüft. Ich bin kein App-Experte und freue mich, wenn Fachleute den Code zusätzlich überprüfen.
