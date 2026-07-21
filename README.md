@@ -32,9 +32,10 @@ Die App ist eine Rechenhilfe für Risiko- bzw. Positionsgrößen-Berechnungen un
 - Anzeige des berechneten Risikokapitals
 - Plausibilitätsprüfungen und entsprechende Hinweise
 - Eingabefehler werden möglichst sofort erkannt
-- Hilfe-Dialog direkt in der App
+- Ein Hilfe-Fenster direkt in der App
 - Funktioniert offline
 - Benötigt keine zusätzlichen Berechtigungen
+- Enthält keine Tracker oder Werbung
 
 ## Allgemeine Vorgaben
 
